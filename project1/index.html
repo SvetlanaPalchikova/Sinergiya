@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<table border="2" cellspacing="0" cellpadding="20" width="500" align="center">
+  <h1 align="center">Покупки</h1>
+    <tr align="center">
+        <th>продукт</th>
+        <th>количество</th>
+        <th>цена</th>
+        <th>итого</th>
+    </tr>
+    <tr align="center" bgcolor="#adff2f">
+        <td>яблоко</td>
+        <td>1</td>
+        <td>50</td>
+        <td>50</td>
+    </tr>
+    <tr align="center" bgcolor="red">
+        <td>помидор</td>
+        <td>2</td>
+        <td>60</td>
+        <td>120</td>
+    </tr>
+    <tr align="center" bgcolor="green">
+        <td>огурец</td>
+        <td>2</td>
+        <td>40</td>
+        <td>80</td>
+    </tr>
+    <tr align="center" bgcolor="#d2691e">
+        <td>перец</td>
+        <td>1</td>
+        <td>100</td>
+        <td>200</td>
+    </tr>
+</table>
+
+<form action="login">
+<!--    в теге форм работает проверка и все поля взаимосвязаны-->
+    <label> ФИО<input type="text" placeholder="ФИО"></label>
+    <br/>
+<!--    атрибут placeholder - что ожидается от этого поля ввода, подсказка-->
+    <label>email<input type="email" placeholder="адрес эл. почты"></label>
+    <br/>
+    <label>дата рождения<input type="date"></label>
+    <br/>
+    <label>password<input type="password"></label>
+    <br/>
+    <label>телефон<input type="tel" placeholder="телефон"></label>
+    <br/>
+    <label>
+        <input type="radio" name="gender">
+        М
+    </label>
+    <label>
+        <input type="radio" name="gender">
+        Ж
+    </label>
+    <label>
+        <input type="checkbox" checked>
+<!--        чекит -галочка зажата-->
+        согласие на обработку персоональных данных
+    </label>
+    <br/>
+    <button type="reset">сброс</button>
+    <button type="submit">подтвердить</button>
+</form>
+<video src="https://htmlbase.ru/storage/app/media/demo.mp4" controls height="200px" width="300" poster="http://skkr.org/wp-content/themes/karate/images/video-out.jpg">видео</video>
+</body>
+</html>

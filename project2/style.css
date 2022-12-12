@@ -1,0 +1,102 @@
+/*.container {*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*    background-color: darkgreen;*/
+/*}*/
+
+/*.container:hover {*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*    background-color: indigo;*/
+/*}*/
+
+/*.container:last-child {*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*    margin-bottom: 10px;*/
+/*    background-color: brown;*/
+/*}*/
+
+/*.aside {*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*    background-color: coral;*/
+/*}*/
+
+/*.main {*/
+/*    font-size: 30px;*/
+/*    color: blue;*/
+/*}*/
+
+/*.container {*/
+/*     height:300px;*/
+/*     display: flex;*/
+/*     justify-content: space-between;*/
+/*     align-items: flex-end;*/
+/* }*/
+
+/*.item {*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*    background-color: darkgreen;*/
+/*}*/
+
+/*.container2 {*/
+/*    height: 300px;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: flex-end;*/
+/*}*/
+
+/*.item2 {*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*    background-color: darkgreen;*/
+/*}*/
+/*.main {*/
+/*    height: 1000px;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+.grid-container {
+    display: grid;
+    grid-template-areas:
+            "header header"
+            "sidebar content"
+            "footer footer";
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 100px 200px 100px;
+}
+
+header {
+    grid-area: header;
+    background-color: blue;
+}
+
+aside {
+    grid-area: sidebar;
+    background-color: brown;
+}
+
+main {
+    grid-area: content;
+    background-color: coral;
+}
+
+footer {
+    grid-area: footer;
+    background-color: indigo;
+}
+
+nav{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item {
+    font-size: 30px;
+    color: white;
+
+}

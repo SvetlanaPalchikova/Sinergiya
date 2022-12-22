@@ -4,12 +4,12 @@ body {
     font-family: 'Sigmar One', cursive;
     text-align: center;
     background-color: black;
-    color: white;
 }
 
 .main-text {
     height: 200px;
     margin-top: 50px;
+    margin-bottom: 200px;
     background: url(https://inlifeinfo.com/wp-content/uploads/2020/05/2020-05-24_20-49-55-min-850x560.jpg);
     font-size: 150px;
     color: transparent;
@@ -41,5 +41,14 @@ a:-webkit-any-link {
     text-decoration: underline;
 }
 .img {
-    margin: 5px;
+
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+footer {
+    margin-top: 200px;
+    color: white;
 }

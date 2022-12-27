@@ -10,6 +10,7 @@ body {
     overflow-y: auto;
     overflow-x: hidden;
     perspective: 100px;
+
 }
 
 .preview {
@@ -139,7 +140,7 @@ nav {
     font-weight: 600;
 }
 
-.content {
+main {
  padding: 250px 150px;
 }
 
@@ -180,3 +181,38 @@ nav {
     grid-row-start: 1;
     grid-row-end: 2;
 }
+
+footer {
+    height: 280px;
+    background-color: #0B1D26;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.footerPart {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.infoFooter {
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.titleFooter {
+    height: 32px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FBD784;
+}
+
+

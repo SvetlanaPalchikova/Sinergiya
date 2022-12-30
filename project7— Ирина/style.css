@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-color: #0B1D26;
+    color: white;
+}
+
+.preview{
+    position: relative;
+    height: 100vh;
+}
+
+.previewLayer{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.previewImage{
+    background-image: url(media/background.png);
+    background-size: cover;
+}
+
+.header{
+    z-index:  2;
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 80px;
+    height: 25px;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+}
+
+.navItem{
+    cursor: pointer;
+}
+
+.navItem:not(:last-child){
+ margin-right: 40px;
+}
+
+.accountWrapper{
+    display: flex;
+    align-items: center;
+}
+
+.titleWraper{
+    z-index: 3;
+    top: 30%;
+    left: 30%;
+    max-width: 950px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+}
+
+.line{
+    width: 72px;
+    height: 2px;
+    background-color: #FBD784;
+}
+
+.titleText{
+    font-size: 18px;
+    color: #FBD784;
+    padding-left: 32px;
+    text-transform: uppercase;
+}
+
+.titleDecription{
+    font-size: 88px;
+    font-weight: 600px;
+}

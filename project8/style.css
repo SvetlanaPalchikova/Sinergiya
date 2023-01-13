@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  z-index: 1;
+    z-index: 1;
     width: 100%;
     height: 15%;
     display: flex;
@@ -149,7 +149,7 @@ h2 {
 }
 
 .section_2_left {
-background-image: url(media/screen.png);
+    background-image: url(media/screen.png);
     width: 50%;
     height: 100%;
     background-size: cover;
@@ -160,8 +160,99 @@ background-image: url(media/screen.png);
 .left_inner {
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.15);
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.left_inner > div {
+    height: 150px;
+    width: 150px;
+    background-color: rgba(255, 255, 255, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+}
+
+.left_inner > div > div {
+    height: 120px;
+    width: 120px;
+    background-color: rgba(255, 255, 255, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.left_inner > div > div > div {
+    height: 80px;
+    width: 80px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section_2_right {
+    width: 50%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.section_2_right > h2 {
+    /*height: 400px;*/
+    /*width: 500px;*/
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    padding-left: 5%;
+    padding-top: 50px;
+}
+
+.section_2_right > p {
+    width: 70%;
+    font-weight: 300;
+    font-size: 16px;
+    padding-left: 5%;
+}
+
+.section_2_right > a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #5B6460;
+    padding-left: 5%;
+}
+
+.facilities {
+    background-color: #5B6460;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #E9ECE0;
+}
+
+.facilities > h2 {
+    margin: 0;
+    font-size: 40px;
+    color: #E9ECE0;
+}
+
+.facilities_inner {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }

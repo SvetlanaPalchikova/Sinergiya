@@ -1,0 +1,137 @@
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+header {
+    z-index: 1;
+    height: 150px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: white;
+}
+
+.header_inner {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header_logo {
+    top: -20px;
+}
+
+nav {
+    width: 35%;
+    height: 100%;
+}
+
+.nav {
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.language {
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+
+}
+
+.intro_text {
+    margin-right: 10%;
+    text-align: center;
+    font-family: 'Mulish';
+    font-style: normal;
+}
+
+.img_bottom {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.section{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(1, 1fr);
+    align-items: center;
+}
+
+.section:not(:last-child) {
+    margin-bottom: 200px;
+}
+
+.sectionInfo{
+    position: relative;
+    max-width: 632px;
+    padding-left:  230px;
+    padding-right: 80px;
+    left: -200px;
+    color: #404b87;
+}
+
+
+.sectionHeader{
+    display: flex;
+    align-items: center;
+}
+
+.sectionInfoTitle{
+    font-size: 60px;
+    padding-top: 27px;
+    font-weight: 800;
+}
+
+.sectionImage2 {
+    padding-right: 80px;
+    padding-left: 170px;
+    max-width: 566px;
+    max-height: 720px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+main{
+    padding: 130px 150px;
+    background: linear-gradient(#e3e5ff, #b9b6ff, #97a4d9, #bbb5ad, #86adff);
+}
+
+footer{
+    background-color: #7e8ae7;
+    height: 170px;
+    color: white;
+}
+
+.line {
+    width: 72px;
+    height: 2px;
+    background-color: #404b87;
+}
+
+a {
+    text-decoration: none;
+}
+
+.line1 {
+    width: 100%;
+    height: 2px;
+    background-color: #e3e5ff;

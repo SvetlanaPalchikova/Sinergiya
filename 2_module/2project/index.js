@@ -13,9 +13,9 @@
 // }
 //
 // if(person.age >15) console.log("you are older 15")
-let num = 3;
-switch (num) {
-    case 2:
+let age = 3;
+switch (age) {
+    case 25:
         console.log("у тебя 2")
         break
     case 41:

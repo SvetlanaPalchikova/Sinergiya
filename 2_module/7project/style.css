@@ -1,12 +1,13 @@
-/*//для смены цвета квадрата*/
-/*.base{*/
-/*    width: 200px;*/
-/*    height: 200px;*/
-/*    background-color: burlywood;*/
-/*}*/
+/*для смены цвета квадрата*/
+.base{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
 
-/*.upgrade{*/
-/*    width: 200px;*/
-/*    height: 200px;*/
-/*    background-color: red;*/
-/*}*/
+.upgrade{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 200px;
+}

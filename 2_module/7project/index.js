@@ -16,14 +16,14 @@
 // list.innerHTML = "<li><a href=#>Click</a></li><li><a href=#>Click</a></li><li><a href=#>Click</a></li>";
 
 //меняем цвет квадрата
-// let testDiv = document.getElementById("test");
-// let btn = document.getElementById("btn");
-//
-// const editDivColor = () => {
-//     testDiv.classList.add("upgrade");
-// };
-//
-// btn.addEventListener("click", editDivColor);
+let testDiv = document.getElementById("test");
+let btn = document.getElementById("btn1");
+
+const editDivColor = () => {
+    testDiv.classList.toggle("upgrade");
+};
+
+btn.addEventListener("click", editDivColor);
 
 //пишем счетчик
 // let input = document.getElementById("input")

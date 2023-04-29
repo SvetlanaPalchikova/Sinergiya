@@ -92,3 +92,10 @@ input.addEventListener("keypress", () => {
 //         contentText.textContent = inputText.value;
 //     },300)
 // })
+// задание 2
+let button = document.getElementById("btn")
+button.textContent = "1";
+const add = () => {
+    button.textContent = +button.textContent + 1
+}
+button.addEventListener("click", add)

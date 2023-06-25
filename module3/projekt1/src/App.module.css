@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.div {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #88c5ca;
+    border-radius: 10px;
+
+}
+
+.input {
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.input_submit {
+    margin: 5px;
+    border-radius: 5px;
+}

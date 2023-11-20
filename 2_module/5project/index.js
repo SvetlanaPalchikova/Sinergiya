@@ -100,13 +100,7 @@
 // }
 // console.log(obj.goOld())
 
-// let obj = {
-//     person: [
-//         {name: "Nik", age: 30},
-//         {name: "ded", age: 25},
-//         {name: "Bob", age: 41},
-//         // {name: "Tur", age: 23},
-//         // {name: "Pop", age: 31},
+// let3
 //     ],
 //     goMiddleAge: () => {
 // //написать функцию, которая возвращает среднее количество лет в компании
@@ -116,21 +110,43 @@
 // }
 // console.log(obj.goMiddleAge())
 
-let obj = {
-    person: [
-        {name: "Nik", age: 30},
-        {name: "ded", age: 25},
-        {name: "Bob", age: 41},
-        {name: "Tur", age: 23},
-        {name: "Pop", age: 31},
-    ],
-    goMiddleAge: () => {
-//написать функцию, которая возвращает среднее количество лет в компании
-        let result = 0;
-        for (i=0; i < obj.person.length; i++) {
-            result += obj.person[i].age
-        }
-        return result/obj.person.length
-    }
+// let obj = {
+//     person: [
+//         {name: "Nik", age: 30},
+//         {name: "ded", age: 25},
+//         {name: "Bob", age: 41},
+//         {name: "Tur", age: 23},
+//         {name: "Pop", age: 31},
+//     ],
+//     goMiddleAge: () => {
+// //написать функцию, которая возвращает среднее количество лет в компании
+//         let result = 0;
+//         for (i=0; i < obj.person.length; i++) {
+//             result += obj.person[i].age
+//         }
+//         return result/obj.person.length
+//     }
+// }
+// console.log(obj.goMiddleAge())
+//
+//
+// let obj = {
+//     person:[
+//         {name: "Nik", money: 40000},
+//         {name: "Bob", money: 30000},
+//         {name: "Rich", money: 50000},
+//         {name: "Jone", money: 45000},
+//         ],
+//     //решение один:
+// //     showMoney: () => {
+// //         // for (i=0; i < obj.person.length; i++) {
+// //         //     console.log(obj.person[i].money)
+// //         }
+//   }
+// // console.log(obj.showMoney())
+// //решение 2:
+//    obj.person.forEach(i => console.log(i.money))
+
+let random = (min, max) => {
+    return Math.floor(Math.random()*(max-min) + min)
 }
-console.log(obj.goMiddleAge())

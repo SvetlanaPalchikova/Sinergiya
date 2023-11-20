@@ -70,6 +70,10 @@ btn.addEventListener("click", editDivColor);
 // };
 // button3.addEventListener("click", div );
 
+// Из JavaScript создайте страницу с полем для ввода и пустым h2-элементом. Введённый в поле текст должен отображаться внутри h2-элемента. ( Доп. задание: текст должен отображаться с задержкой в 300ms.)
+
+
+
 let input = document.getElementById("input")
 let text = document.getElementById('h2')
 document.body.append(input, text)
@@ -93,9 +97,21 @@ input.addEventListener("keypress", () => {
 //     },300)
 // })
 // задание 2
+// Из JavaScript создайте страницу с кнопкой. Через Java Script  добавьте на кнопку надпись “1”. При каждом нажатии на кнопку число должно увеличиваться на 1.
 let button = document.getElementById("btn")
 button.textContent = "1";
 const add = () => {
     button.textContent = +button.textContent + 1
 }
 button.addEventListener("click", add)
+
+// Из JavaScript создайте страницу с квадратным блоком. При нажатии на блок он должен превращаться в круг. При повторном нажатии снова становиться квадратом.
+
+let testDiv = document.getElementById("test");
+let btn = document.getElementById("btn1");
+
+const editDivColor = () => {
+    testDiv.classList.toggle("upgrade");
+};
+
+btn.addEventListener("click", editDivColor);
